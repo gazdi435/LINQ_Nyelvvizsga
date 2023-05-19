@@ -12,7 +12,7 @@ namespace Nyelvvizsga
         static void Main(string[] args)
         {
             Beolvasas("sikeres.csv", true);
-            Beolvasas("C:\\Users\\Zsolesz\\source\\repos\\Nyelvvizsga\\Nyelvvizsga\\bin\\Debug\\net6.0\\sikertelen.csv", false);
+            Beolvasas("sikertelen.csv", false);
 
             MasodikFeladat();
             HarmadikEsNegyedikFeladat();
